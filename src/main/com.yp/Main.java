@@ -9,4 +9,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.print("输出测试");
     }
+
+    public String print(){
+        System.out.println("输出测试");
+        return "ok";
+    }
 }
